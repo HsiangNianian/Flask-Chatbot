@@ -73,7 +73,3 @@ def reply():
     # 将回复转换为 JSON 格式并返回响应
     response = {'message': reply}
     return jsonify(response)
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
