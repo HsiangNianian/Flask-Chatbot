@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "use": "@vercel/python",
+        "entrypoint": "app:app"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/app/index"
+      }
+    ]
+  }
+  
