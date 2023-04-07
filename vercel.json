@@ -2,8 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "use": "@vercel/python",
-        "entrypoint": "app:app"
+        "use": "@vercel/python"
       }
     ],
     "routes": [
