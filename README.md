@@ -6,13 +6,12 @@
     <img src="./assets/vercel.png" alt="Website">
 </a>
 
-
 <a style="text-decoration:none" href="https://flexirobo.retrofor.space" target="_blank">
-    <img align="right" src="https://img.shields.io/badge/docs-flexirobo.retrofor.space-002fa7?style=flat-square" alt="Website">
+    <img src="./assets/Docs.png" alt="Website">
 </a>
-<br>
+
 <a style="text-decoration:none" href="https://flexirobo.playground.retrofor.space" target="_blank">
-    <img align="right" src="https://img.shields.io/badge/playground-flexirobo.playground.retrofor.space-002fa7?style=flat-square" alt="Website">
+    <img src="./assets/playground.png" alt="Website">
 </a>
 
 ## ✨Intro.
