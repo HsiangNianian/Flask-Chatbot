@@ -5,7 +5,7 @@ $(function() {
   // 监听输入框的键盘事件
   $('#user-input').keydown(function(e) {
     if (e.keyCode == 13 && !e.shiftKey) {
-      e.preventDefault(); // 阻止默认行为（换行）
+      e.preventDefault(); //   阻止默认行为（换行）
       sendMessage();
     }
   });
