@@ -3,7 +3,7 @@ import json
 import random
 from flask import Flask, request, jsonify, render_template, send_from_directory
 
-with open('static/responses.json', 'r', encoding='utf-8') as f:
+with open('./resources/responses.json', 'r', encoding='utf-8') as f:
     responses = json.load(f)
 
 app = Flask(__name__)
@@ -42,7 +42,7 @@ def index():
 
 @app.route('/static/<path:path>')
 def send_static(path):
-    return send_from_directory('static', path)
+    return send_from_directory('./static', path)
 
 
 @app.route('/chat', methods=['POST'])
@@ -73,3 +73,7 @@ def reply():
     # 将回复转换为 JSON 格式并返回响应
     response = {'message': reply}
     return jsonify(response)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
