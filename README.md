@@ -8,20 +8,20 @@
 This is a finished web page robot that implements front-end and back-end separation, with high maintainability, and the ability to easily and quickly write various plugins.
 
 
-### 🎇Features:
+### Features:
 
 - 😎Easy to use: One-click deployment, front-end and back-end separation
 - 🐱‍🏍Efficient operation: Front-end uses Vue, back-end uses Flask
 - 💎Lightweight and flexible: Modularization, centralized.
 
 
-### 🎉Implemented plugins
+### Implemented plugins
 
 - Dice rolling
 - Custom reply (one-to-one)
 - More to come in the future...
 
-### 💡Future features to be supported
+### Future features to be supported
 
 - Perfect most of the functions as a dice robot
 - Connect with GPT social network
