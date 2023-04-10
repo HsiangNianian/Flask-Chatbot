@@ -7,18 +7,27 @@
 
 This is a finished web page robot that implements front-end and back-end separation, with high maintainability, and the ability to easily and quickly write various plugins.
 
-### Implemented plugins
+
+### 🎇Features:
+
+- 😎Easy to use: One-click deployment, front-end and back-end separation
+- 🐱‍🏍Efficient operation: Front-end uses Vue, back-end uses Flask
+- 💎Lightweight and flexible: Modularization, centralized.
+
+
+### 🎉Implemented plugins
 
 - Dice rolling
 - Custom reply (one-to-one)
 - More to come in the future...
 
-### Future features to be supported
+### 💡Future features to be supported
 
 - Perfect most of the functions as a dice robot
 - Connect with GPT social network
 
-### ToDo-List
+
+### 📌ToDo-List
 
 - [ ] Beautify interface
 - [ ] Authentication verification
@@ -26,7 +35,7 @@ This is a finished web page robot that implements front-end and back-end separat
 - [ ] Support local importing and online obtaining of plugins
 
 
-## 🐱‍🏍Site Preview
+## 🌈Site Preview
 
 - <http://flexirobo.playground.retrofor.space/> _(recommend)_
 - <https://flexirobo-git-main-retrofor.vercel.app/>
