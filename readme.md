@@ -3,15 +3,15 @@
 > "A front-end and back-end separated robot that provides quick deployment."
 
 <a style="text-decoration:none" href="https://vercel.com/new/clone?repository-url=https://github.com/retrofor/Flexirobo" target="_blank">
-    <img src="./assets/vercel.png" alt="Website">
+    <img src="./img/vercel.png" alt="Website">
 </a>
 
 <a style="text-decoration:none" href="https://flexirobo.retrofor.space" target="_blank">
-    <img src="./assets/Docs.png" alt="Website">
+    <img src="./img/Docs.png" alt="Website">
 </a>
 
 <a style="text-decoration:none" href="https://flexirobo.playground.retrofor.space" target="_blank">
-    <img src="./assets/playground.png" alt="Website">
+    <img src="./img/playground.png" alt="Website">
 </a>
 
 ## ✨Intro.
