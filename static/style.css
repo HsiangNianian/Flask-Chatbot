@@ -1,59 +1,45 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%; /*可删除min-height: 100%;*/
-}
-
-.chat-display-container {
-  width: 90%;
-  max-width: 600px;
-  margin-bottom: 10px;
-  flex: 1; /*添加flex：1，让聊天记录占据剩余的高度*/
-}
-
 #chat-display-window {
-  height: calc(100% - 60px); /*用calc计算，之前的300px改为百分比，其他高度也改为百分比，下同*/
-  border: 1px solid #ccc;
-  overflow-y: scroll;
-  padding: 2%; /*padding改为百分比*/
+  height: calc(100% - 60px); /* 60px 为输入框和发送按钮的高度之和 */
+  overflow-y: auto;
 }
 
-.chat-input-container {
-  width: 90%;
-  max-width: 600px;
+#user-input-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2%; /*改为百分比*/
 }
 
 #user-input {
-  flex: 1;
-  height: 7vh; /*改为百分比*/
-  font-size: 3.5vw; /*改为百分比*/
-  padding: 2%; /*改为百分比*/
-  margin-right: 2%; /*添加margin-right，让输入框和按钮之间有一定距离*/
-  border: 1px solid #ccc;
-  border-radius: 5vw; /*改为百分比*/
+  flex-grow: 1;
   resize: none;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 #submit-button {
-  height: 7vh; /*改为百分比*/
-  font-size: 3.5vw; /*改为百分比*/
-  padding: 2%; /*改为百分比*/
-  color: #fff;
+  width: 80px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
   background-color: #007bff;
+  color: #fff;
   border: none;
-  border-radius: 5vw; /*改为百分比*/
+  outline: none;
   cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#submit-button:hover {
+  background-color: #0069d9;
+}
+
+.user-message {
+  color: #333;
+}
+
+.bot-message {
+  color: #777;
 }
