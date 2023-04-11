@@ -10,7 +10,7 @@
     <img src="./img/Docs.png" alt="Website">
 </a>
 
-<a style="text-decoration:none" href="https://flexirobo.playground.retrofor.space" target="_blank">
+<a style="text-decoration:none" href="https://flexirobo.retrofor.space/playground" target="_blank">
     <img src="./img/playground.png" alt="Website">
 </a>
 
