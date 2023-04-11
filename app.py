@@ -35,7 +35,7 @@ def process(text):
     return '抱歉，我不明白您的意思'
 
 
-@app.route('/flexirobo/')
+@app.route('/flexirobo')
 def index():
     return render_template('index.html')
 

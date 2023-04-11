@@ -11,7 +11,7 @@ $(function () {
     if (message) {
       $.ajax({
         type: 'POST',
-        url: '/Flexirobo/chat',
+        url: '/flexirobo/chat',
         data: JSON.stringify({ message: message }),
         contentType: 'application/json; charset=utf-8',
         dataType: 'json',
