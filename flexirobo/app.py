@@ -3,7 +3,7 @@ import json
 import random
 from flask import Flask, request, jsonify, render_template, send_from_directory
 
-with open('./resources/responses.json', 'r', encoding='utf-8') as f:
+with open('resources/responses.json', 'r', encoding='utf-8') as f:
     responses = json.load(f)
 
 app = Flask(__name__)

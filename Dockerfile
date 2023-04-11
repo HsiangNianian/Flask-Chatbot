@@ -1,4 +1,8 @@
-FROM python:3.10-slim-buster
+FROM python:3.8-slim-buster
+
+WORKDIR /flexirobo
+
+COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 

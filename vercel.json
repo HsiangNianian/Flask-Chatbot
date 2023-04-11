@@ -8,7 +8,7 @@
     "routes": [
       {
         "src": "/playground/(.*)",
-        "dest": "/app.py"
+        "dest": "/flexirobo/app.py"
       }
     ]
   }
