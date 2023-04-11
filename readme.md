@@ -48,6 +48,5 @@ This is a finished web page robot that implements front-end and back-end separat
 
 ## 🌈Site Preview
 
-- <http://flexirobo.playground.retrofor.space/> _(recommend)_
-- <https://flexirobo-git-main-retrofor.vercel.app/>
-- <https://flexirobo-retrofor.vercel.app/>
+- <http://flexirobo.retrofor.space/> _(recommend)_
+- <flexirobo-git-main-retrofor.vercel.app/>
