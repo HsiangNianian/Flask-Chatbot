@@ -7,7 +7,7 @@
     ],
     "routes": [
       {
-        "src": "/(.*)",
+        "src": "//flexirobo/(.*)",
         "dest": "/app.py"
       }
     ]
