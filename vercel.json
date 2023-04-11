@@ -7,7 +7,7 @@
     ],
     "routes": [
       {
-        "src": "/(.*)",
+        "src": "/playground/(.*)",
         "dest": "/app.py"
       }
     ]

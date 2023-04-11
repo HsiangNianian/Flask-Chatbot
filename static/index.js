@@ -11,7 +11,7 @@ $(function () {
     if (message) {
       $.ajax({
         type: 'POST',
-        url: '/chat',
+        url: '/playground/chat',
         data: JSON.stringify({ message: message }),
         contentType: 'application/json; charset=utf-8',
         dataType: 'json',
