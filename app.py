@@ -35,17 +35,17 @@ def process(text):
     return '抱歉，我不明白您的意思'
 
 
-@app.route('/')
+@app.route('/flexirobo/')
 def index():
     return render_template('index.html')
 
 
-@app.route('/static/<path:path>')
+@app.route('/flexirobo/static/<path:path>')
 def send_static(path):
     return send_from_directory('./static', path)
 
 
-@app.route('/chat', methods=['POST'])
+@app.route('/flexirobo/chat', methods=['POST'])
 def reply():
     data = request.get_json()
 
